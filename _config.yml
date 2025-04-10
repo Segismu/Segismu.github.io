@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Pablo César"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Film directing and game development entusiast."
+  bio    : "Gamedev, film directing, writing and transmedia"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
