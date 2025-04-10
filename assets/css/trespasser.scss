@@ -1,6 +1,6 @@
 /* ===== Importaciones del tema Minimal Mistakes ===== */
-@import "minimal-mistakes/skins/dark"; // Usamos el skin dark como base
-@import "minimal-mistakes";          // Cargamos todo el tema
+@import "minimal-mistakes/skins/dark";  // Usa el skin dark como base
+@import "minimal-mistakes";           // Cargamos el tema completo
 
 /* ===== Variables personalizadas ===== */
 $primary-color: #00aaff;
@@ -15,7 +15,7 @@ $muted-text-color: #7f8c8d;
 body {
   font-family: 'Inter', sans-serif;
   color: #d9e2ec;
-  margin: 0;  /* Elimina márgenes que puedan afectar la posición del fondo */
+  margin: 0;      /* Elimina márgenes para que la imagen ocupe todo el viewport */
   padding: 0;
 }
 
@@ -27,13 +27,13 @@ body {
   width: 100vw;
   height: 100vh;
   background-image: url("https://raw.githubusercontent.com/Segismu/Segismu.github.io/master/assets/images/header-bg.jpg");
-  background-size: cover;
-  background-position: center;
+  background-size: cover;      /* Se ajusta para cubrir todo el espacio sin distorsión */
+  background-position: center; /* Centra la imagen en el viewport */
   background-repeat: no-repeat;
-  z-index: -1;  /* Coloca la imagen detrás de todo el contenido */
+  z-index: -1;                 /* Se asegura que quede detrás del contenido */
 }
 
-/* Opcional: Overlay para oscurecer la imagen y mejorar la legibilidad */
+/* ===== Opcional: Overlay para oscurecer la imagen y mejorar la legibilidad ===== */
 .background-image::after {
   content: "";
   position: absolute;
@@ -44,9 +44,7 @@ body {
   background: rgba(0, 0, 0, 0.4);
 }
 
-/* ===== Ocultar elementos de listado de posts, categorías, tags, etc. ===== */
-/* Se ocultan tanto la barra de posts como se pueden llamar barras laterales de navegación o secciones del footer 
-   asociadas a posts y archivos, dependiendo de cómo el tema renderice la página. */
+/* ===== Ocultar elementos relacionados a listados de posts, categorías, tags, etc. ===== */
 .page-header,
 .site-footer,
 .post-pagination,
@@ -57,5 +55,3 @@ body {
 .sidebar {
   display: none !important;
 }
-
-/* Si en algún otro contenedor se cargan posts, archivos o elementos similares, identifica su selector y agrégalo aquí */
