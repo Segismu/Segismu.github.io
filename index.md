@@ -18,6 +18,7 @@ read_time: false
   <video autoplay muted loop playsinline>
     <source src="/assets/videos/header.mp4" type="video/mp4">
   </video>
+  <div class="video-overlay"></div>
 </div>
 
 {% include feature_row id="intro" %}
