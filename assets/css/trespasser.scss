@@ -16,22 +16,19 @@ $muted-text-color: #7f8c8d;
 /* Fuente personalizada */
 body {
   font-family: 'Inter', sans-serif;
+  position: relative;
+  z-index: 2;
+  color: #d9e2ec;
 }
 
-/* Ocultar la barra superior en la home splash */
-body.page--splash .masthead,
-body.page--splash .search__toggle {
-  display: none !important;
-}
-
-/* Fondo de video en splash */
-.video-hero-bg {
-  position: absolute;
+/* Fondo de video como fondo general */
+.video-background {
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
   overflow: hidden;
 
   video {
@@ -50,13 +47,13 @@ body.page--splash .search__toggle {
   }
 }
 
-/* Asegurar que el contenido textual del splash esté por delante */
-.page__hero {
-  position: relative;
-  z-index: 2;
+/* Ocultar la barra superior en splash */
+body.page--splash .masthead,
+body.page--splash .search__toggle {
+  display: none !important;
 }
 
-/* Más contraste en mobile */
+/* Contraste adicional en pantallas chicas */
 @media (max-width: 768px) {
   .video-overlay {
     background: rgba(0, 0, 0, 0.6);
