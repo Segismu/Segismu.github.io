@@ -17,7 +17,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   "Gamedev - Film directing - Transmedia pojects"
 github_username: "Segismu"
-minimal_mistakes_skin: "trespasser"
+minimal_mistakes_skin: "dark"
 search: true
 
 # Build settings
