@@ -1,10 +1,7 @@
----
----
+@import "minimal-mistakes/skins/dark"; // Usamos el skin dark como base
+@import "minimal-mistakes"; // Después del skin, cargamos todo el tema
 
-@import "minimal-mistakes/skins/dark"; // usamos el skin dark como base
-@import "minimal-mistakes"; // después del skin, cargamos todo el tema
-
-/* Colores personalizados */
+/* Variables personalizadas */
 $primary-color: #00aaff;
 $link-color: $primary-color;
 $accent-color: #005577;
@@ -13,43 +10,54 @@ $background-color: #0e1117;
 $text-color: #d9e2ec;
 $muted-text-color: #7f8c8d;
 
-/* Fuente personalizada */
+/* Fuente y estilos base */
 body {
   font-family: 'Inter', sans-serif;
   position: relative;
-  z-index: 2;
+  z-index: 2; /* Asegura que el contenido quede por encima del video */
   color: #d9e2ec;
 }
 
-/* Configuración para que el video cubra toda la pantalla y quede atrás del contenido */
+/* Configuración para el video de fondo */
 #background-video {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  object-fit: cover;  /* Ajusta la escala del video sin perder proporción */
-  z-index: -1;  /* Lo coloca detrás del resto */
+  object-fit: cover; /* El video cubre toda la pantalla sin distorsionarse */
+  z-index: -1;     /* Colocado detrás del contenido */
 }
 
-/* Asegura que los contenedores principales sean transparentes */
+/* Forzar la transparencia en contenedores que puedan tener fondo gris */
 html,
 body,
 .site,
 .page-wrapper,
-.content {
+.content,
+.main-container {
   background: transparent !important;
 }
 
-/* Ocultar la barra superior en splash */
-body.page--splash .masthead {
-  display: none !important;
-  visibility: hidden;
-  opacity: 0;
-  height: 0;
-  overflow: hidden;
-}
-
-body.page--splash .search__toggle {
-  display: none !important;
-}
+/* Si previamente usabas la clase .background-image, puedes eliminarla o comentarla */
+// .background-image {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100vw;
+//   height: 100vh;
+//   background-image: url("https://raw.githubusercontent.com/Segismu/Segismu.github.io/master/assets/images/header-bg.jpg");
+//   background-size: cover;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   z-index: -1;
+// }
+// .background-image::after {
+//   content: "";
+//   position: absolute;
+//   top: 0; 
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background: rgba(0, 0, 0, 0.4); /* Oscurece la imagen */
+// }
