@@ -14,9 +14,9 @@ excerpt: "Gamedev · Film · Transmedia"
 read_time: false
 ---
 
-<!-- Video de fondo ubicado al comienzo para que quede detrás del contenido -->
+<!-- Video de fondo ubicado antes que el resto del contenido -->
 <video autoplay loop muted playsinline id="background-video">
-  <source src="{{ '/assets/videos/header.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/videos/background.mp4' | relative_url }}" type="video/mp4">
   Tu navegador no soporta el video.
 </video>
 
