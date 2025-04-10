@@ -17,7 +17,6 @@ title: "Pablo César - Transmedia Trespasser"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   "Gamedev - Film directing - Transmedia pojects"
-twitter_username: username
 github_username: "Segismu"
 minimal_mistakes_skin: "neon"
 search: true
@@ -64,27 +63,24 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://pablocesar.dev"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Itch.io"
+      icon: "fa-brands fa-itch-io"
+      url: "https://segismu.itch.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Segismu"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/seroximoron"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Segismu"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/seroximoron"
 
 defaults:
   # _posts
