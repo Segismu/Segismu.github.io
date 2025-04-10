@@ -14,12 +14,7 @@ excerpt: "Gamedev · Film · Transmedia"
 read_time: false
 ---
 
-<div class="video-background">
-  <video autoplay muted loop playsinline>
-    <source src="/assets/videos/header.mp4" type="video/mp4">
-  </video>
-  <div class="video-overlay"></div>
-</div>
+<div class="background-image"></div>
 
 {% include feature_row id="intro" %}
 {% include feature_row id="projects" %}
