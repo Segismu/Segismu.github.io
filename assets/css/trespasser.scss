@@ -31,3 +31,7 @@ body {
   50% { transform: translateX(5%) scale(1.02); }
   100% { transform: translateX(0%); }
 }
+
+body.page--splash .masthead {
+  display: none;
+}
