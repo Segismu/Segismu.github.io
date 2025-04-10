@@ -14,12 +14,7 @@ excerpt: "Gamedev · Film · Transmedia"
 read_time: false
 ---
 
-
-<!-- Se elimina o comenta el div de la imagen
-<div class="background-image"></div>
--->
-
-<!-- Se agrega el video de fondo -->
+<!-- Video de fondo ubicado al comienzo para que quede detrás del contenido -->
 <video autoplay loop muted playsinline id="background-video">
   <source src="{{ '/assets/videos/header.mp4' | relative_url }}" type="video/mp4">
   Tu navegador no soporta el video.
