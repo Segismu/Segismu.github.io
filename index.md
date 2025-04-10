@@ -5,7 +5,13 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/header-bg.jpg
+
+  <div class="video-header">
+  <video autoplay muted loop playsinline>
+    <source src="/assets/videos/header.mp4" type="video/mp4">
+  </video>
+</div>
+  
   actions:
     - label: "See My Work"
       url: "/projects/"
