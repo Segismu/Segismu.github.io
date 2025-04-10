@@ -1,15 +1,8 @@
-/* ===== Reset de márgenes y paddings global ===== */
-html,
-body {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
 /* ===== Importaciones del tema Minimal Mistakes ===== */
 @import "minimal-mistakes/skins/dark"; // Usamos el skin dark como base
 @import "minimal-mistakes";          // Cargamos todo el tema
 
-/* ===== Variables Personalizadas ===== */
+/* ===== Variables personalizadas ===== */
 $primary-color: #00aaff;
 $link-color: $primary-color;
 $accent-color: #005577;
@@ -18,68 +11,51 @@ $background-color: #0e1117;
 $text-color: #d9e2ec;
 $muted-text-color: #7f8c8d;
 
-/* ===== Fuente y estilos base ===== */
+/* ===== Estilos base ===== */
 body {
   font-family: 'Inter', sans-serif;
-  position: relative;
-  z-index: 2; /* Asegura que el contenido quede por encima del video */
   color: #d9e2ec;
+  margin: 0;  /* Elimina márgenes que puedan afectar la posición del fondo */
+  padding: 0;
 }
 
-/* ===== Configuración para el video de fondo ===== */
-#background-video {
+/* ===== Configuración de la imagen de fondo ===== */
+.background-image {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  object-fit: cover;  /* Garantiza que el video cubra toda la pantalla sin deformarse */
-  z-index: -1000;    /* Posicionado muy atrás para evitar conflictos de stacking context */
+  background-image: url("https://raw.githubusercontent.com/Segismu/Segismu.github.io/master/assets/images/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;  /* Coloca la imagen detrás de todo el contenido */
 }
 
-/* ===== Forzar transparencia en contenedores y pseudos ===== */
-html,
-body,
-.site,
-.page-wrapper,
-.content,
-.main-container,
-.site-main,
-.page--splash,
-#main-content,
+/* Opcional: Overlay para oscurecer la imagen y mejorar la legibilidad */
+.background-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* ===== Ocultar elementos de listado de posts, categorías, tags, etc. ===== */
+/* Se ocultan tanto la barra de posts como se pueden llamar barras laterales de navegación o secciones del footer 
+   asociadas a posts y archivos, dependiendo de cómo el tema renderice la página. */
 .page-header,
-.hero {
-  background: transparent !important;
+.site-footer,
+.post-pagination,
+.pagination,
+.categories,
+.tags,
+.related,
+.sidebar {
+  display: none !important;
 }
 
-/* Anulación de fondos y contenido de pseudoelementos (si aplican) */
-.page--splash::before,
-.page--splash::after,
-.site::before,
-.site::after {
-  background: transparent !important;
-  content: none !important;
-}
-
-/* ===== Si existiera la clase .background-image, la removemos ===== */
-// .background-image {
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100vw;
-//   height: 100vh;
-//   background-image: url("https://raw.githubusercontent.com/Segismu/Segismu.github.io/master/assets/images/header-bg.jpg");
-//   background-size: cover;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   z-index: -1;
-// }
-// .background-image::after {
-//   content: "";
-//   position: absolute;
-//   top: 0; 
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   background: rgba(0, 0, 0, 0.4);
-// }
+/* Si en algún otro contenedor se cargan posts, archivos o elementos similares, identifica su selector y agrégalo aquí */
