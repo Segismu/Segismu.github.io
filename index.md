@@ -14,7 +14,7 @@ excerpt: "Gamedev · Film · Transmedia"
 read_time: false
 ---
 
-<div class="video-hero-bg">
+<div class="video-background">
   <video autoplay muted loop playsinline>
     <source src="/assets/videos/header.mp4" type="video/mp4">
   </video>
