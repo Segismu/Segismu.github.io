@@ -28,7 +28,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url("assets/images/header-bg.jpg");
+  background-image: url("https://raw.githubusercontent.com/Segismu/Segismu.github.io/master/assets/images/header-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,7 +45,14 @@ body {
 }
 
 /* Ocultar la barra superior en splash */
-body.page--splash .masthead,
+body.page--splash .masthead {
+  display: none !important;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
 body.page--splash .search__toggle {
   display: none !important;
 }
