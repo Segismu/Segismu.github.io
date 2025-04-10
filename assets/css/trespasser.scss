@@ -1,0 +1,17 @@
+---
+---
+
+@import "minimal-mistakes/skins/dark"; // usamos dark como base
+@import "minimal-mistakes"; // carga los estilos generales
+
+$primary-color: #00aaff;
+$link-color: $primary-color;
+$accent-color: #005577;
+
+$background-color: #0e1117;
+$text-color: #d9e2ec;
+$muted-text-color: #7f8c8d;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
