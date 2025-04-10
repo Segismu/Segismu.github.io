@@ -14,8 +14,5 @@ excerpt: "Gamedev · Film · Transmedia"
 read_time: false
 ---
 
-<!-- Imagen de fondo para la página de inicio -->
-<div class="background-image"></div>
-
 {% include feature_row id="intro" %}
 {% include feature_row id="projects" %}
