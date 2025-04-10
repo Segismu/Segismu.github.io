@@ -25,6 +25,7 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -56,19 +57,19 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : ""
+  name   : "Pablo César"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Film directing and game development entusiast."
   links:
-    - label: ""
+    - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://pablocesar.dev"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/Segismu"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
@@ -80,7 +81,7 @@ footer:
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/Segismu"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
