@@ -2,7 +2,6 @@
 layout: splash
 title: "Pablo César"
 permalink: /
-redirect_from: /home/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
