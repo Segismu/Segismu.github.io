@@ -21,14 +21,24 @@ body {
   color: #d9e2ec;
 }
 
+/* Configuración para que el video cubra toda la pantalla y quede atrás del contenido */
 #background-video {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  object-fit: cover; /* Asegura que el video cubra toda la pantalla sin distorsionarse */
-  z-index: -1;  /* Lo coloca detrás del contenido */
+  object-fit: cover;  /* Ajusta la escala del video sin perder proporción */
+  z-index: -1;  /* Lo coloca detrás del resto */
+}
+
+/* Asegura que los contenedores principales sean transparentes */
+html,
+body,
+.site,
+.page-wrapper,
+.content {
+  background: transparent !important;
 }
 
 /* Ocultar la barra superior en splash */
