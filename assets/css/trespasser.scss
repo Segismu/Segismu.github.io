@@ -16,22 +16,33 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+/* Aseguramos que el contenedor esté listo para overlays */
+.page__hero {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Overlay animado */
 .page__hero--overlay::before {
   content: "";
   position: absolute;
-  top: 0; left: 0; width: 100%; height: 100%;
-  background: linear-gradient(120deg, rgba(0,170,255,0.1), rgba(0,50,100,0.2));
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, rgba(0,170,255,0.2), rgba(0,50,100,0.2));
   animation: gradientShift 15s ease-in-out infinite;
-  z-index: 1;
+  z-index: 0; /* debajo del contenido pero encima del fondo */
   pointer-events: none;
 }
 
+/* Movimiento del gradiente */
 @keyframes gradientShift {
-  0% { transform: translateX(0%); }
+  0% { transform: translateX(0%) scale(1); }
   50% { transform: translateX(5%) scale(1.02); }
-  100% { transform: translateX(0%); }
+  100% { transform: translateX(0%) scale(1); }
 }
 
+/* Ocultar la barra superior en la home splash */
 body.page--splash .masthead {
   display: none;
 }
