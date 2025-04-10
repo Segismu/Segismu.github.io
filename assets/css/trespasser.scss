@@ -1,8 +1,8 @@
 ---
 ---
 
-@import "minimal-mistakes/skins/dark"; // usamos dark como base
-@import "minimal-mistakes"; // carga los estilos generales
+@import "minimal-mistakes/skins/dark"; // usamos el skin dark como base
+@import "minimal-mistakes"; // después del skin, cargamos todo el tema
 
 $primary-color: #00aaff;
 $link-color: $primary-color;
