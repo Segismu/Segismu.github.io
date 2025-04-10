@@ -1,0 +1,20 @@
+intro:
+  - image_path: /assets/images/bio-photo.jpg
+    alt: "Pablo César"
+    title: "Hi, I'm Pablo César"
+    excerpt: "I create films, games, and stories that cross boundaries."
+    url: "/about/"
+    btn_label: "More About Me"
+    btn_class: "btn--primary"
+
+projects:
+  - image_path: /assets/images/project1.jpg
+    alt: "Project 1"
+    title: "Fantasya"
+    excerpt: "A narrative dungeon crawler born from a filmic universe."
+    url: "/projects/fantasya/"
+  - image_path: /assets/images/project2.jpg
+    alt: "Project 2"
+    title: "Criaturas Intensas"
+    excerpt: "A transmedia journey through memory, obsession and pixels."
+    url: "/films/criaturas-intensas/"
