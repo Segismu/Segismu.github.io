@@ -1,7 +1,15 @@
-@import "minimal-mistakes/skins/dark"; // Usamos el skin dark como base
-@import "minimal-mistakes"; // Después del skin, cargamos todo el tema
+/* ===== Reset de márgenes y paddings global ===== */
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
 
-/* Variables personalizadas */
+/* ===== Importaciones del tema Minimal Mistakes ===== */
+@import "minimal-mistakes/skins/dark"; // Usamos el skin dark como base
+@import "minimal-mistakes";          // Cargamos todo el tema
+
+/* ===== Variables Personalizadas ===== */
 $primary-color: #00aaff;
 $link-color: $primary-color;
 $accent-color: #005577;
@@ -10,7 +18,7 @@ $background-color: #0e1117;
 $text-color: #d9e2ec;
 $muted-text-color: #7f8c8d;
 
-/* Fuente y estilos base */
+/* ===== Fuente y estilos base ===== */
 body {
   font-family: 'Inter', sans-serif;
   position: relative;
@@ -18,28 +26,42 @@ body {
   color: #d9e2ec;
 }
 
-/* Configuración para el video de fondo */
+/* ===== Configuración para el video de fondo ===== */
 #background-video {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  object-fit: cover; /* El video cubre toda la pantalla sin distorsionarse */
-  z-index: -1;     /* Colocado detrás del contenido */
+  object-fit: cover;  /* Garantiza que el video cubra toda la pantalla sin deformarse */
+  z-index: -1000;    /* Posicionado muy atrás para evitar conflictos de stacking context */
 }
 
-/* Forzar la transparencia en contenedores que puedan tener fondo gris */
+/* ===== Forzar transparencia en contenedores y pseudos ===== */
 html,
 body,
 .site,
 .page-wrapper,
 .content,
-.main-container {
+.main-container,
+.site-main,
+.page--splash,
+#main-content,
+.page-header,
+.hero {
   background: transparent !important;
 }
 
-/* Si previamente usabas la clase .background-image, puedes eliminarla o comentarla */
+/* Anulación de fondos y contenido de pseudoelementos (si aplican) */
+.page--splash::before,
+.page--splash::after,
+.site::before,
+.site::after {
+  background: transparent !important;
+  content: none !important;
+}
+
+/* ===== Si existiera la clase .background-image, la removemos ===== */
 // .background-image {
 //   position: fixed;
 //   top: 0;
@@ -59,5 +81,5 @@ body,
 //   left: 0;
 //   width: 100%;
 //   height: 100%;
-//   background: rgba(0, 0, 0, 0.4); /* Oscurece la imagen */
+//   background: rgba(0, 0, 0, 0.4);
 // }
