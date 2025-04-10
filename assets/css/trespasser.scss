@@ -35,19 +35,36 @@ body {
   pointer-events: none;
 }
 
+/* Fondo de video en splash */
 .video-header {
   position: absolute;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   z-index: 0;
+  overflow: hidden;
 
   video {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
+
+  .video-overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* oscurece el video */
+    z-index: 1;
+  }
+}
+
+/* Asegura que el texto del splash esté por encima */
+.page__hero {
+  position: relative;
+  z-index: 2;
 }
 
 /* Movimiento del gradiente */
@@ -57,7 +74,14 @@ body {
   100% { transform: translateX(0%) scale(1); }
 }
 
+@media (max-width: 768px) {
+  .video-overlay {
+    background: rgba(0, 0, 0, 0.6); // más oscuro en mobile
+  }
+}
+
 /* Ocultar la barra superior en la home splash */
-body.page--splash .masthead {
-  display: none;
+body.page--splash .masthead,
+body.page--splash .search__toggle {
+  display: none !important;
 }
