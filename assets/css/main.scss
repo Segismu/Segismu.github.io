@@ -63,3 +63,53 @@ a {
 a:hover {
   color: #0088cc;
 }
+
+
+
+/* Contenedor de las secciones de trabajo */
+.work-sections {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* Cada sección con su botón */
+.work-sections .section {
+  flex: 1 1 45%;
+  background-color: rgba(0, 0, 0, 0.05); /* fondo sutil */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Estilo para los encabezados dentro de cada sección */
+.work-sections .section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+
+/* Estilo para el párrafo descriptivo */
+.work-sections .section p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Botón de enlace */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #00aaff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0088cc;
+}
