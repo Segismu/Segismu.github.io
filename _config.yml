@@ -20,6 +20,8 @@ github_username: "Segismu"
 minimal_mistakes_skin: "dark"
 search: true
 
+title_separator: ""
+
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
