@@ -69,15 +69,20 @@
     display: none; /* Esto eliminará completamente el contenido debajo del título */
   }
   
-  /* Si solo quieres eliminar el estilo pero mantener el contenido, usa esto en lugar del anterior */
-  /*
-  .page__content {
-    background-color: transparent !important;
-    padding: 20px;
-    border-radius: 0;
-    margin-top: 20px;
+  /* Ocultar el "less than 1 minute read" */
+  .page__meta, .page__meta-readtime {
+    display: none !important;
   }
-  */
+  
+  /* Ocultar el "powered by" en el pie de página */
+  .page__footer-copyright {
+    display: none !important;
+  }
+  
+  /* Ocultar todo el pie de página si es necesario */
+  .page__footer {
+    display: none !important;
+  }
   
   /* Para dispositivos móviles - usar imagen en lugar de video para mejorar rendimiento */
   @media (max-width: 768px) {
