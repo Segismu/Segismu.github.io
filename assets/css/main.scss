@@ -2,8 +2,22 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+/* Importar Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap');
+
+/* Importaciones de Minimal Mistakes */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
+
+/* Definir las fuentes para el sitio */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Aplicar una fuente especial para los títulos */
+.page__title {
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* Estilos personalizados */
 
