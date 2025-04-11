@@ -63,3 +63,15 @@ a {
 a:hover {
   color: #0088cc;
 }
+
+/* Estilo para los íconos de redes sociales */
+.social-icons a {
+  color: #fff;            /* Usa #000 para iconos negros */
+  font-size: 1.5rem;      /* Ajusta el tamaño según necesites */
+  margin: 0 0.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ddd;            /* Color de hover, ajústalo a tu gusto */
+}
