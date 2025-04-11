@@ -1,15 +1,11 @@
 <!-- start custom head snippets -->
 
-<!-- Agregar favicon y sobrescribir el título si es necesario -->
+<!-- Agregar favicon y título sin guion -->
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
 <!-- Estilos para el video de fondo y para ocultar la barra de navegación -->
 <style>
-  /* Estilos personalizados para las fuentes, iconos y demás... */
-  
-  /* (… tus estilos existentes …) */
-  
   /* Configuración del video de fondo */
   #background-video {
     position: fixed;
@@ -21,7 +17,7 @@
     height: auto;
     z-index: -100;
     object-fit: cover;
-    background: url('/assets/images/header-bg.jpg') no-repeat center center fixed;
+    background: url('/assets/images/header-bg.jpg') no-repeat center center fixed; /* Imagen de respaldo */
     background-size: cover;
   }
   
@@ -32,7 +28,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad según sea necesario */
     z-index: -99;
   }
   
@@ -41,23 +37,106 @@
     background: transparent !important;
   }
   
-  /* (Resto de tus estilos existentes …) */
-  
-  /* Estilos para iconos sociales elegantes */
-  .social-icons a {
-    color: #fff; /* O #000 para iconos negros */
+  /* Ocultar la barra de navegación superior (masthead) */
+  .masthead {
+    display: none !important;
   }
   
-  /* ... Continuar con los estilos existentes ... */
+  /* Ajustar el margen superior para compensar la barra oculta */
+  .initial-content {
+    margin-top: 20px;
+  }
   
-  /* Para dispositivos móviles - ajustes responsivos */
+  /* Contenedor para el banner y el avatar */
+  .hero-container {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Banner translúcido para el título y botones en la página principal */
+  .page__hero--overlay .wrapper {
+    position: relative; /* Agregado para posicionar hijos absolutos */
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    padding: 30px !important;
+    border-radius: 10px;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+  }
+  
+  /* Avatar personalizado */
+  .custom-avatar {
+    position: absolute;
+    right: 20px;         /* Ajusta el espacio a la derecha según necesites */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    height: auto;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
+    /*transition: transform 0.3s ease;*/ /* Animación desactivada */
+  }
+  
+  /*.custom-avatar:hover {
+    transform: scale(1.05);
+  }*/
+  
+  /* Mejorar la visibilidad del título */
+  .page__hero--overlay .page__title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+  }
+  
+  /* Mejorar la visibilidad del subtítulo/extracto */
+  .page__hero--overlay .page__lead {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+  }
+  
+  /* Eliminar la caja translúcida SOLO en la página principal */
+  .layout--splash .page__content {
+    display: none; /* Esto eliminará el contenido solo en la página principal que usa layout splash */
+  }
+  
+  /* Estilo para el contenido en otras páginas como About */
+  .layout--single .page__content {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    padding: 30px !important;
+    border-radius: 10px;
+    max-width: 800px !important;
+    margin: 30px auto !important;
+    color: #d9e2ec;
+  }
+  
+  /* Ocultar el "less than 1 minute read" */
+  .page__meta, .page__meta-readtime {
+    display: none !important;
+  }
+  
+  /* Ocultar el "powered by" en el pie de página */
+  .page__footer-copyright {
+    display: none !important;
+  }
+  
+  /* Ocultar todo el pie de página si es necesario */
+  .page__footer {
+    display: none !important;
+  }
+  
+  /* Para dispositivos móviles - usar imagen en lugar de video y ajustes responsivos */
   @media (max-width: 1100px) {
-    .hero-container { flex-direction: column; }
+    .hero-container {
+      flex-direction: column;
+    }
+    
     .page__hero--overlay .wrapper {
       margin-right: 0 !important;
       margin-bottom: 20px !important;
       max-width: 90% !important;
     }
+    
     .custom-avatar {
       position: relative;
       width: 200px;
@@ -66,18 +145,28 @@
     }
   }
   
+  /* Media Query para dispositivos móviles más pequeños */
   @media (max-width: 768px) {
-    #background-video { display: none; }
+    #background-video {
+      display: none;
+    }
     body {
       background: url('/assets/images/header-bg.jpg') no-repeat center center fixed !important;
       background-size: cover !important;
     }
+    
+    /* Ajustar el banner para dispositivos móviles y centrarlo */
     .page__hero--overlay .wrapper {
       padding: 20px !important;
-      margin: 0 auto !important;
-      text-align: center;
+      margin: 0 auto !important; /* Centrar horizontalmente */
+      text-align: center;        /* Centrar el contenido interno si es necesario */
     }
-    .layout--single .page__content { max-width: 90% !important; }
+    
+    .layout--single .page__content {
+      max-width: 90% !important;
+    }
+    
+    /* Ajustes específicos para el avatar en móvil para evitar solapamientos */
     .custom-avatar {
       position: relative;
       width: 150px;
@@ -100,13 +189,20 @@
 <!-- Script para agregar el avatar y restructurar la página principal -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  // Solo ejecutar en la página principal (layout splash)
   if (document.querySelector('.layout--splash')) {
+    // Obtener el wrapper existente (el contenedor del banner)
     var wrapper = document.querySelector('.page__hero--overlay .wrapper');
+    
+    // Si encontramos el wrapper, agregar el avatar dentro
     if (wrapper) {
+      // Crear avatar
       var avatar = document.createElement('img');
       avatar.src = '/assets/images/avatar.png';
       avatar.className = 'custom-avatar';
       avatar.alt = 'Avatar';
+      
+      // Inserta el avatar al final del wrapper
       wrapper.appendChild(avatar);
     }
   }
