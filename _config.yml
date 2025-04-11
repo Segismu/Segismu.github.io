@@ -83,6 +83,11 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/seroximoron"
 
+social:
+      instagram: "https://www.instagram.com/tu_usuario"
+      itchio: "https://tu_usuario.itch.io"
+      linkedin: "https://www.linkedin.com/in/tu_usuario"
+
 defaults:
   # _posts
   - scope:
