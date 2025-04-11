@@ -55,6 +55,7 @@
   
   /* Banner translúcido para el título y botones en la página principal */
   .page__hero--overlay .wrapper {
+    position: relative; /* Agregado para posicionar hijos absolutos */
     background-color: rgba(0, 0, 0, 0.7) !important;
     padding: 30px !important;
     border-radius: 10px;
@@ -65,10 +66,11 @@
   /* Avatar personalizado */
   .custom-avatar {
     position: absolute;
-    right: 1;
+    right: 20px;         /* Ajusta el espacio a la derecha según necesites */
+    top: 50%;
+    transform: translateY(-50%);
     width: 300px;
     height: auto;
-    z-index: 3;
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
     transition: transform 0.3s ease;
   }
