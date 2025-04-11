@@ -64,9 +64,19 @@
     font-weight: 500;
   }
   
-  /* Eliminar la caja translúcida que aparece debajo del título */
-  .page__content {
-    display: none; /* Esto eliminará completamente el contenido debajo del título */
+  /* Eliminar la caja translúcida SOLO en la página principal */
+  .layout--splash .page__content {
+    display: none; /* Esto eliminará el contenido solo en la página principal que usa layout splash */
+  }
+  
+  /* Estilo para el contenido en otras páginas como About */
+  .layout--single .page__content {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    padding: 30px !important;
+    border-radius: 10px;
+    max-width: 800px !important;
+    margin: 30px auto !important;
+    color: #d9e2ec;
   }
   
   /* Ocultar el "less than 1 minute read" */
@@ -97,6 +107,10 @@
     /* Ajustar el banner para dispositivos móviles */
     .page__hero--overlay .wrapper {
       padding: 20px !important;
+      max-width: 90% !important;
+    }
+    
+    .layout--single .page__content {
       max-width: 90% !important;
     }
   }
