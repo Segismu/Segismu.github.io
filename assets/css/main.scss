@@ -1,0 +1,48 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Custom styles */
+body {
+  background: url("/assets/images/header-bg.jpg") center center / cover no-repeat fixed !important;
+  position: relative;
+}
+
+/* Overlay for better text readability */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.page__hero--overlay {
+  background-color: transparent !important;
+}
+
+.page__content {
+  color: #d9e2ec;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Hide unnecessary elements */
+.page-header,
+.site-footer,
+.post-pagination,
+.pagination,
+.categories,
+.tags,
+.related,
+.sidebar {
+  display: none !important;
+}
