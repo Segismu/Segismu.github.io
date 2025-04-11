@@ -11,4 +11,5 @@ header:
     - label: "About Me"
       url: "/about/"
 excerpt: "Gamedev · Film · Transmedia"
+read_time: false
 ---
