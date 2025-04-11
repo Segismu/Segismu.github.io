@@ -5,28 +5,9 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Custom styles */
-body {
-  background: url("/assets/images/header-bg.jpg") center center / cover no-repeat fixed !important;
-  position: relative;
-}
+/* Estilos personalizados */
 
-/* Overlay for better text readability */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: -1;
-}
-
-.page__hero--overlay {
-  background-color: transparent !important;
-}
-
+/* Mejoras para la legibilidad del contenido */
 .page__content {
   color: #d9e2ec;
   background-color: rgba(0, 0, 0, 0.6);
@@ -35,7 +16,12 @@ body::before {
   margin-top: 20px;
 }
 
-/* Hide unnecessary elements */
+/* Hacer transparente el fondo del héroe en la página splash */
+.page__hero--overlay {
+  background-color: transparent !important;
+}
+
+/* Ocultar elementos innecesarios */
 .page-header,
 .site-footer,
 .post-pagination,
@@ -45,4 +31,21 @@ body::before {
 .related,
 .sidebar {
   display: none !important;
+}
+
+/* Ajustes para enlaces y botones */
+.btn--primary {
+  background-color: #00aaff;
+}
+
+.btn--primary:hover {
+  background-color: #0088cc;
+}
+
+a {
+  color: #00aaff;
+}
+
+a:hover {
+  color: #0088cc;
 }
