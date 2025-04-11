@@ -3,6 +3,10 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I’m a filmmaker, writer, and narrative designer based in Montevideo, Uruguay. My work explores fragmented realities, identity, and obsession—often blending elements of fantasy, mystery, and psychological horror.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+A graduate of the Escuela de Cine del Uruguay (ECU), I was awarded Uruguay’s National Literature Prize in 2018 for my debut novel, a recognition that established the literary foundation of my storytelling. Since then, I’ve expanded into visual and interactive narratives, writing and directing short films and developing my skills on solo game development.
+
+My short film The House Below was officially selected at the Brussels International Fantastic Film Festival (BIFFF), one of the most renowned genre festivals worldwide. I’m also part of the PUA - Posicionamiento Internacional program, supporting the international positioning of my feature project Intense Creatures.
+
+Deeply interested in game development, I’ve participated in several Global Game Jams and I’m currently developing Fantasya, a retro dungeon crawler tied to the narrative universe of my film projects. Through every medium, my focus is on building emotionally resonant, immersive experiences that live at the edge of the uncanny.
