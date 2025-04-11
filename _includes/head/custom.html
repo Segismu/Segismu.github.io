@@ -220,6 +220,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 });
+
+<script>
+  // Eliminar el guion del título de la pestaña
+  document.addEventListener('DOMContentLoaded', function() {
+    var originalTitle = document.title;
+    if (originalTitle.endsWith(' -')) {
+      document.title = originalTitle.slice(0, -2);
+    } else if (originalTitle.includes(' - ')) {
+      document.title = originalTitle.replace(/ - /g, '');
+    }
+  });
+</script>
 </script>
 
 <!-- end custom head snippets -->
