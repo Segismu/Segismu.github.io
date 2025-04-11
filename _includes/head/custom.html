@@ -151,24 +151,26 @@
       background-size: cover !important;
     }
     
-    /* Ajustar el banner para dispositivos móviles */
-    .page__hero--overlay .wrapper {
-      padding: 20px !important;
-    }
-    
-    .layout--single .page__content {
-      max-width: 90% !important;
-    }
-    
-    /* Ajustes específicos para el avatar en móvil para evitar solapamientos */
-    .custom-avatar {
-      position: relative;
-      width: 150px;
-      margin: 20px auto 0;
-      display: block;
-      transform: none;
-    }
+    /* Ajustar el banner para dispositivos móviles y centrarlo */
+  .page__hero--overlay .wrapper {
+    padding: 20px !important;
+    margin: 0 auto !important; /* Centrar horizontalmente */
+    text-align: center;        /* Centrar el contenido interno si es necesario */
   }
+  
+  .layout--single .page__content {
+    max-width: 90% !important;
+  }
+  
+  /* Ajustes específicos para el avatar en móvil para evitar solapamientos */
+  .custom-avatar {
+    position: relative;
+    width: 150px;
+    margin: 20px auto 0;
+    display: block;
+    transform: none;
+  }
+}
 </style>
 
 <!-- Elemento de video con autoplay, muted y loop para reproducción continua -->
