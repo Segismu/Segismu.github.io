@@ -84,9 +84,11 @@ footer:
       url: "https://instagram.com/seroximoron"
 
 social:
-      instagram: "https://www.instagram.com/tu_usuario"
-      itchio: "https://tu_usuario.itch.io"
-      linkedin: "https://www.linkedin.com/in/tu_usuario"
+  twitter: ""       # Se elimina porque queda vacío
+  facebook: ""      # Se elimina porque queda vacío
+  instagram: "https://www.instagram.com/tu_usuario"
+  itchio: "https://tu_usuario.itch.io"
+  linkedin: "https://www.linkedin.com/in/tu_usuario"
 
 defaults:
   # _posts
