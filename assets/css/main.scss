@@ -100,16 +100,16 @@ a:hover {
 }
 
 /* Botón de enlace */
-.btn {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: #00aaff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #0088cc;
-}
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
