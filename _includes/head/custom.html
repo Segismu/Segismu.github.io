@@ -158,15 +158,18 @@
     /* Ajustar el banner para dispositivos móviles y centrarlo */
     .page__hero--overlay .wrapper {
       padding: 20px !important;
-      margin: 0 auto !important; /* Centrar horizontalmente */
-      text-align: center;        /* Centrar el contenido interno si es necesario */
+      margin: 0 auto !important;
+      text-align: center;
     }
     
+    /* Forzar el centrado del contenedor de contenido */
     .layout--single .page__content {
       display: block !important;
       width: 90% !important;
       margin-left: auto !important;
       margin-right: auto !important;
+      float: none !important;
+      position: relative;
     }
     
     /* Ajustes específicos para el avatar en móvil para evitar solapamientos */
