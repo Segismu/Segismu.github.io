@@ -1,30 +1,27 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 /* ===== Importaciones del tema Minimal Mistakes ===== */
 @import "minimal-mistakes/skins/dark";  // Base: skin dark
 @import "minimal-mistakes";           // Carga el tema completo
-
 /* ===== Variables personalizadas (puedes conservar las que ya usas) ===== */
 $primary-color: #00aaff;
 $link-color: $primary-color;
 $accent-color: #005577;
-
 $background-color: #0e1117;
 $text-color: #d9e2ec;
 $muted-text-color: #7f8c8d;
-
 /* ===== Estilos base (aseguramos que no haya márgenes) ===== */
 html,
 body {
   margin: 0;
   padding: 0;
 }
-
 /* ===== Fuerza la imagen de fondo en el body ===== */
 body {
-  background: url("assets/images/header-bg.jpg") center center / cover no-repeat fixed !important;
+  background: url("../images/header-bg.jpg") center center / cover no-repeat fixed !important;
 }
-
 /* ===== Opcional: Si quisieras agregar un overlay para mejorar la legibilidad ===== */
 /* Este overlay se coloca de forma absoluta sobre el body */
 body::after {
@@ -37,7 +34,6 @@ body::after {
   background: rgba(0, 0, 0, 0.4);
   z-index: -1;
 }
-
 /* ===== Ocultar elementos innecesarios (si aún aparecen) ===== */
 .page-header,
 .site-footer,
