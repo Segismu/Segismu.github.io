@@ -172,40 +172,7 @@
 
 <!-- Script para agregar el avatar y restructurar la página principal -->
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Solo ejecutar en la página principal (layout splash)
-    if (document.querySelector('.layout--splash')) {
-      // Crear el contenedor para el hero y el avatar
-      var heroContainer = document.createElement('div');
-      heroContainer.className = 'hero-container';
-      
-      // Obtener el wrapper existente
-      var wrapper = document.querySelector('.page__hero--overlay .wrapper');
-      
-      // Si encontramos el wrapper, reorganizar los elementos
-      if (wrapper) {
-        // Crear avatar
-        var avatar = document.createElement('img');
-        avatar.src = '/assets/images/avatar.png';
-        avatar.className = 'custom-avatar';
-        avatar.alt = 'Avatar';
-        
-        // Obtener el padre del wrapper
-        var parent = wrapper.parentNode;
-        
-        // Insertar el nuevo contenedor
-        parent.insertBefore(heroContainer, wrapper);
-        
-        // Mover el wrapper dentro del nuevo contenedor
-        heroContainer.appendChild(wrapper);
-        
-        // Añadir el avatar al nuevo contenedor
-        heroContainer.appendChild(avatar);
-      }
-    }
-  });
-
-  document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   // Solo ejecutar en la página principal (layout splash)
   if (document.querySelector('.layout--splash')) {
     // Obtener el wrapper existente (el contenedor del banner)
