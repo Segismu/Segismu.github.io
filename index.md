@@ -7,7 +7,7 @@ header:
   overlay_filter: "0"
   actions:
     - label: "See My Work"
-      url: "/projects/"
+      url: "/see-my-work/"
     - label: "About Me"
       url: "/about/"
 excerpt: "Gamedev · Film · Transmedia"
