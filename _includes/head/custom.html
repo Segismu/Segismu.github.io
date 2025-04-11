@@ -204,6 +204,26 @@
       }
     }
   });
+
+  document.addEventListener('DOMContentLoaded', function() {
+  // Solo ejecutar en la página principal (layout splash)
+  if (document.querySelector('.layout--splash')) {
+    // Obtener el wrapper existente (el contenedor del banner)
+    var wrapper = document.querySelector('.page__hero--overlay .wrapper');
+    
+    // Si encontramos el wrapper, agregar el avatar dentro
+    if (wrapper) {
+      // Crear avatar
+      var avatar = document.createElement('img');
+      avatar.src = '/assets/images/avatar.png';
+      avatar.className = 'custom-avatar';
+      avatar.alt = 'Avatar';
+      
+      // Inserta el avatar al final del wrapper
+      wrapper.appendChild(avatar);
+    }
+  }
+});
 </script>
 
 <!-- end custom head snippets -->
