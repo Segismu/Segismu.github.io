@@ -43,13 +43,39 @@
     margin-top: 20px;
   }
   
+  /* Contenedor para el banner y el avatar */
+  .hero-container {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
   /* Banner translúcido para el título y botones en la página principal */
   .page__hero--overlay .wrapper {
     background-color: rgba(0, 0, 0, 0.7) !important;
     padding: 30px !important;
     border-radius: 10px;
-    max-width: 800px !important;
-    margin: 0 auto !important;
+    max-width: 650px !important;
+    margin-right: 20px !important;
+    z-index: 2;
+  }
+  
+  /* Avatar personalizado */
+  .custom-avatar {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    height: auto;
+    z-index: 3;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
+    transition: transform 0.3s ease;
+  }
+  
+  .custom-avatar:hover {
+    transform: scale(1.05);
   }
   
   /* Mejorar la visibilidad del título */
@@ -94,7 +120,26 @@
     display: none !important;
   }
   
-  /* Para dispositivos móviles - usar imagen en lugar de video para mejorar rendimiento */
+  /* Para dispositivos móviles - usar imagen en lugar de video y ajustes responsivos */
+  @media (max-width: 1100px) {
+    .hero-container {
+      flex-direction: column;
+    }
+    
+    .page__hero--overlay .wrapper {
+      margin-right: 0 !important;
+      margin-bottom: 20px !important;
+      max-width: 90% !important;
+    }
+    
+    .custom-avatar {
+      position: relative;
+      width: 200px;
+      margin-top: 20px;
+      right: auto;
+    }
+  }
+  
   @media (max-width: 768px) {
     #background-video {
       display: none;
@@ -107,7 +152,6 @@
     /* Ajustar el banner para dispositivos móviles */
     .page__hero--overlay .wrapper {
       padding: 20px !important;
-      max-width: 90% !important;
     }
     
     .layout--single .page__content {
@@ -124,5 +168,41 @@
 
 <!-- Overlay para mejorar la legibilidad del contenido -->
 <div class="video-overlay"></div>
+
+<!-- Script para agregar el avatar y restructurar la página principal -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Solo ejecutar en la página principal (layout splash)
+    if (document.querySelector('.layout--splash')) {
+      // Crear el contenedor para el hero y el avatar
+      var heroContainer = document.createElement('div');
+      heroContainer.className = 'hero-container';
+      
+      // Obtener el wrapper existente
+      var wrapper = document.querySelector('.page__hero--overlay .wrapper');
+      
+      // Si encontramos el wrapper, reorganizar los elementos
+      if (wrapper) {
+        // Crear avatar
+        var avatar = document.createElement('img');
+        avatar.src = '/assets/images/avatar.png';
+        avatar.className = 'custom-avatar';
+        avatar.alt = 'Avatar';
+        
+        // Obtener el padre del wrapper
+        var parent = wrapper.parentNode;
+        
+        // Insertar el nuevo contenedor
+        parent.insertBefore(heroContainer, wrapper);
+        
+        // Mover el wrapper dentro del nuevo contenedor
+        heroContainer.appendChild(wrapper);
+        
+        // Añadir el avatar al nuevo contenedor
+        heroContainer.appendChild(avatar);
+      }
+    }
+  });
+</script>
 
 <!-- end custom head snippets -->
