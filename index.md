@@ -1,5 +1,6 @@
 ---
 layout: custom
+head_custom: true
 title: "Pablo César"
 permalink: /
 header:
