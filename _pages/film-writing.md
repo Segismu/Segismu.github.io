@@ -3,6 +3,10 @@ permalink: /film-writing/
 title: "Film and Writing"
 ---
 
+<a href="/" class="home-link">
+  <img src="/assets/images/avatar.png" alt="Inicio">
+</a>
+
 JEJEJE
 
 <!-- Contenedor responsivo para el video de YouTube -->
