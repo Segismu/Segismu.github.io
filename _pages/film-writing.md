@@ -11,7 +11,7 @@ JEJEJE
 
 <!-- Contenedor responsivo para el video de YouTube -->
 <div class="video-container">
-  <iframe src="https://youtu.be/aAQQDFKyP4A" 
+  <iframe src="https://www.youtube.com/embed/aAQQDFKyP4A" 
           frameborder="0" 
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
