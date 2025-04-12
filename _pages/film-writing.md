@@ -11,7 +11,7 @@ JEJEJE
 
 <!-- Contenedor responsivo para el video de YouTube -->
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/Sbuip0UXI_A?autoplay=0&loop=1&playlist=Sbuip0UXI_A" 
+  <iframe src="https://youtu.be/aAQQDFKyP4A" 
           frameborder="0" 
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
