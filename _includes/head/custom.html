@@ -193,6 +193,25 @@
   .social-icons a:hover {
     color: #ddd;
   }
+
+  .home-link {
+  position: fixed;    /* Fija en la pantalla */
+  top: 10px;          /* Ajusta la distancia desde la parte superior */
+  left: 10px;         /* Ajusta la distancia desde la izquierda */
+  z-index: 9999;      /* Asegura que esté por encima de otros elementos */
+  opacity: 0.8;       /* Un poco de transparencia */
+  transition: opacity 0.3s ease;
+}
+
+.home-link img {
+  width: 50px;        /* Tamaño reducido, ajústalo según lo necesario */
+  height: auto;
+  display: block;
+}
+
+.home-link:hover {
+  opacity: 1;         /* Se vuelve opaco al pasar el cursor */
+}
   
 </style>
 
