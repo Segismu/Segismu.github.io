@@ -3,6 +3,10 @@ permalink: /see-my-work/
 title: "See My Work"
 ---
 
+<a href="/" class="home-link">
+  <img src="/assets/images/avatar.png" alt="Inicio">
+</a>
+
 <div class="work-sections">
 
   <!-- Sección para Film & Writing -->
