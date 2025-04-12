@@ -1,5 +1,5 @@
 ---
-layout: custom
+layout: splash
 head_custom: true
 title: "Pablo César"
 permalink: /
