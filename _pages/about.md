@@ -3,6 +3,10 @@ permalink: /about/
 title: "About"
 ---
 
+<a href="/" class="home-link">
+  <img src="/assets/images/avatar.png" alt="Inicio">
+</a>
+
 I’m a filmmaker, writer, and narrative designer based in Montevideo, Uruguay. My work explores fragmented realities, identity, and obsession—often blending elements of fantasy, mystery, and psychological horror.
 
 A graduate of the Escuela de Cine del Uruguay (ECU), I was awarded Uruguay’s National Literature Prize in 2018 for my debut novel, a recognition that established the literary foundation of my storytelling. Since then, I’ve expanded into visual and interactive narratives, writing and directing short films and developing my pasion for game development.
