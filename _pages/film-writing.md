@@ -41,7 +41,7 @@ title: "Film and Writing"
 <!-- INTENSE CREATURES -->
 <h2>Deep Creatures (in development)</h2>
 <p><strong>Feature Film Project</strong></p>
-<p>An unsettling story of youth, memory, and looping realities. Currently in development, this film expands the universe of my short *Again* and bridges it with the interactive media I continue to develop.</p>
+<p>An unsettling story of youth, memory, and looping realities. Currently in development, this film expands the universe of my short *Again* and bridges it with the interactive media we continue to develop.</p>
 
 <hr>
 
@@ -57,7 +57,7 @@ title: "Film and Writing"
   </iframe>
 </div>
 
-<p>A haunting return to a familiar place, *Again* explores what remains of a group of friends consumed by obsession. The film is currently being submitted to international festivals and will have its international premiere in May 2025, in Tokyo, Japan.</p>
+<p>A haunting return to a familiar place, "Again" explores what remains of a group of friends consumed by obsession. The film is currently being submitted to international festivals and with its international premiere in May 2025, Tokyo, Japan.</p>
 
 <hr>
 
