@@ -17,7 +17,7 @@ title: "Film and Writing"
 <h2>The House Below (2023)</h2>
 <p><strong>Writer & Director</strong> · Short Film · Selected at <a href="https://www.bifff.net" target="_blank">BIFFF 2024</a></p>
 <img src="/assets/images/the-house-below-poster.jpg" alt="The House Below Poster" style="max-width: 100%; height: auto;">
-<p>A surreal exploration of grief and disconnection, filmed and edited in five days during the ACAU and Brussels International Fantastic Film Festival Workshop in Uruguay. Selected for the parallel section at BIFFF 2025.</p>
+<p>A surreal exploration of grief and disconnection, filmed and edited in five days during the ACAU and Brussels International Fantastic Film Festival Workshop in Uruguay. Parallel section at BIFFF 2025.</p>
 
 <!-- Video embed -->
 <div class="video-container">
@@ -33,14 +33,14 @@ title: "Film and Writing"
 <!-- NATIONAL LITERATURE PRIZE -->
 <h2>National Literature Prize (2018)</h2>
 <p><strong>Awarded by the Ministry of Education and Culture of Uruguay</strong> · <em>Once brujas</em> · Novel</p>
-<img src="/assets/images/novel-cover.jpg" alt="Book Cover" style="max-width: 100%; height: auto;">
+<img src="/assets/images/oncebrujas.png" alt="Book Cover" style="max-width: 100%; height: auto;">
 <p>This special mention was awarded for <em>Once brujas</em> (“Eleven Witches”), a novel about a young man lost in a place frozen in the suburban landscape of a 1990s Río de la Plata town. This work laid the narrative foundation that continues to echo throughout many of my audiovisual projects.</p>
 
 <hr>
 
 <!-- INTENSE CREATURES -->
-<h2>Intense Creatures (in development)</h2>
-<p><strong>Feature Film Project</strong> · Supported by <strong>PUA – Posicionamiento Internacional</strong></p>
+<h2>Deep Creatures (in development)</h2>
+<p><strong>Feature Film Project</strong></p>
 <p>An unsettling story of youth, memory, and looping realities. Currently in development, this film expands the universe of my short *Again* and bridges it with the interactive media I continue to develop.</p>
 
 <hr>
@@ -66,8 +66,6 @@ title: "Film and Writing"
 <p><strong>Co-founder & Creative Director</strong></p>
 <img src="/assets/images/nekomata-logo.png" alt="Nekomata Estudio Logo" style="max-width: 150px; height: auto;">
 <p>Nekomata is an independent film and interactive media studio based in Uruguay. We focus on emotionally driven genre storytelling across formats — from cinema to experimental video games. As a co-founder and coordinator, I lead the narrative direction of our projects, merging cinematic language with interactive structures.</p>
-
-<p>Learn more at <a href="https://nekomataestudio.com" target="_blank">nekomataestudio.com</a> (coming soon).</p>
 
 <hr>
 
