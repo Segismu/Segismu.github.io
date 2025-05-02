@@ -14,7 +14,7 @@ title: "Film and Writing"
 <hr>
 
 <!-- THE HOUSE BELOW -->
-<h2>The House Below (2023)</h2>
+<h2>The House Below (2024)</h2>
 <p><strong>Writer & Director</strong> · Short Film · Selected at <a href="https://www.bifff.net" target="_blank">BIFFF 2024</a></p>
 <img src="/assets/images/artthb.jpg" alt="The House Below Poster" style="max-width: 100%; height: auto;">
 <p>A surreal exploration of grief and disconnection, filmed and edited in five days during the ACAU and Brussels International Fantastic Film Festival Workshop in Uruguay. Parallel section at BIFFF 2025.</p>
@@ -38,16 +38,8 @@ title: "Film and Writing"
 
 <hr>
 
-<!-- DEEP CREATURES -->
-<h2>Deep Creatures (in development)</h2>
-<p><strong>Feature Film Project</strong></p>
-<img src="/assets/images/conceptdeepcreatures.jpg" alt="Concept Art" style="max-width: 100%; height: auto;">
-<p>An unsettling story of youth, memory, and looping realities. Currently in development, this film expands the universe of my short *Again* and bridges it with the interactive media we continue to develop.</p>
-
-<hr>
-
 <!-- DE NUEVO -->
-<h2>De Nuevo (Again) (2023)</h2>
+<h2>De Nuevo (Again) (2025)</h2>
 <p><strong>Writer & Director</strong> · Short Film</p>
 
 <div class="video-container">
@@ -58,7 +50,15 @@ title: "Film and Writing"
   </iframe>
 </div>
 
-<p>A haunting return to a familiar place, "Again" explores what remains of a group of friends consumed by obsession. The film is currently being submitted to international festivals and with its international premiere in May 2025, Tokyo, Japan.</p>
+<p>A haunting return to a familiar place, "Again" explores what remains of a group of friends consumed by obsession. The film is currently being submitted to international festivals, with its international premiere in May 2025, Tokyo, Japan.</p>
+
+<hr>
+
+<!-- DEEP CREATURES -->
+<h2>Deep Creatures (in development)</h2>
+<p><strong>Feature Film Project</strong></p>
+<img src="/assets/images/conceptdeepcreatures.jpg" alt="Concept Art" style="max-width: 100%; height: auto;">
+<p>An unsettling story of youth, memory, and looping realities. Currently in development, this film expands the universe of our short "Again" and bridges it with the interactive media we continue to develop.</p>
 
 <hr>
 
