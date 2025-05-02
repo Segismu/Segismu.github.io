@@ -38,16 +38,17 @@ title: "Film and Writing"
 
 <hr>
 
-<!-- INTENSE CREATURES -->
+<!-- DEEP CREATURES -->
 <h2>Deep Creatures (in development)</h2>
 <p><strong>Feature Film Project</strong></p>
+<img src="/assets/images/conceptdeepcreatures.jpg" alt="Concept Art" style="max-width: 100%; height: auto;">
 <p>An unsettling story of youth, memory, and looping realities. Currently in development, this film expands the universe of my short *Again* and bridges it with the interactive media we continue to develop.</p>
 
 <hr>
 
 <!-- DE NUEVO -->
 <h2>De Nuevo (Again) (2023)</h2>
-<p><strong>Writer & Director</strong> · Short Film · Trailer below</p>
+<p><strong>Writer & Director</strong> · Short Film</p>
 
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/aAQQDFKyP4A" 
