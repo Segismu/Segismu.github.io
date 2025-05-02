@@ -17,27 +17,36 @@ title: "Film and Writing"
 <h2>The House Below (2023)</h2>
 <p><strong>Writer & Director</strong> · Short Film · Selected at <a href="https://www.bifff.net" target="_blank">BIFFF 2024</a></p>
 <img src="/assets/images/the-house-below-poster.jpg" alt="The House Below Poster" style="max-width: 100%; height: auto;">
-<p>A surreal exploration of grief and disconnection, filmed and edited in five days during the ACAU Workshop. Official selection at the Brussels International Fantastic Film Festival.</p>
+<p>A surreal exploration of grief and disconnection, filmed and edited in five days during the ACAU and Brussels International Fantastic Film Festival Workshop in Uruguay. Selected for the parallel section at BIFFF 2025.</p>
+
+<!-- Video embed -->
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/cyX2pnC_VEY" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+</div>
 
 <hr>
 
 <!-- NATIONAL LITERATURE PRIZE -->
 <h2>National Literature Prize (2018)</h2>
-<p><strong>Awarded by the Ministry of Education and Culture of Uruguay</strong> · Novel</p>
+<p><strong>Awarded by the Ministry of Education and Culture of Uruguay</strong> · <em>Once brujas</em> · Novel</p>
 <img src="/assets/images/novel-cover.jpg" alt="Book Cover" style="max-width: 100%; height: auto;">
-<p>This award marked my entry into the literary world. The novel, centered on isolation and obsession, set the foundation for the narrative tone that continues in my audiovisual works.</p>
+<p>This special mention was awarded for <em>Once brujas</em> (“Eleven Witches”), a novel about a young man lost in a place frozen in the suburban landscape of a 1990s Río de la Plata town. This work laid the narrative foundation that continues to echo throughout many of my audiovisual projects.</p>
 
 <hr>
 
 <!-- INTENSE CREATURES -->
 <h2>Intense Creatures (in development)</h2>
-<p><strong>Feature Film Project</strong> · Supported by <strong>PUA - Posicionamiento Internacional</strong></p>
-<p>An unsettling story of youth, memory, and looping realities. Currently in development, this film expands the universe of my short works and connects them with interactive media.</p>
+<p><strong>Feature Film Project</strong> · Supported by <strong>PUA – Posicionamiento Internacional</strong></p>
+<p>An unsettling story of youth, memory, and looping realities. Currently in development, this film expands the universe of my short *Again* and bridges it with the interactive media I continue to develop.</p>
 
 <hr>
 
 <!-- DE NUEVO -->
-<h2>De Nuevo (2023)</h2>
+<h2>De Nuevo (Again) (2023)</h2>
 <p><strong>Writer & Director</strong> · Short Film · Trailer below</p>
 
 <div class="video-container">
@@ -48,7 +57,17 @@ title: "Film and Writing"
   </iframe>
 </div>
 
-<p>A haunting return to a familiar place, *De Nuevo* explores what remains unsaid after loss. The film is currently being submitted to international festivals.</p>
+<p>A haunting return to a familiar place, *Again* explores what remains of a group of friends consumed by obsession. The film is currently being submitted to international festivals and will have its international premiere in May 2025, in Tokyo, Japan.</p>
+
+<hr>
+
+<!-- NEKOMATA ESTUDIO -->
+<h2>Nekomata Estudio</h2>
+<p><strong>Co-founder & Creative Director</strong></p>
+<img src="/assets/images/nekomata-logo.png" alt="Nekomata Estudio Logo" style="max-width: 150px; height: auto;">
+<p>Nekomata is an independent film and interactive media studio based in Uruguay. We focus on emotionally driven genre storytelling across formats — from cinema to experimental video games. As a co-founder and coordinator, I lead the narrative direction of our projects, merging cinematic language with interactive structures.</p>
+
+<p>Learn more at <a href="https://nekomataestudio.com" target="_blank">nekomataestudio.com</a> (coming soon).</p>
 
 <hr>
 
