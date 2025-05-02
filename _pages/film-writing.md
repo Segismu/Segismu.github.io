@@ -33,7 +33,7 @@ title: "Film and Writing"
 <!-- NATIONAL LITERATURE PRIZE -->
 <h2>National Literature Prize (2018)</h2>
 <p><strong>Awarded by the Ministry of Education and Culture of Uruguay</strong> · <em>Once brujas</em> · Novel</p>
-<img src="/assets/images/oncebrujas.png" alt="Book Cover" style="max-width: 100%; height: auto;">
+<img src="/assets/images/oncebrujas.jpg" alt="Book Cover" style="max-width: 100%; height: auto;">
 <p>This special mention was awarded for <em>Once brujas</em> (“Eleven Witches”), a novel about a young man lost in a place frozen in the suburban landscape of a 1990s Río de la Plata town. This work laid the narrative foundation that continues to echo throughout many of my audiovisual projects.</p>
 
 <hr>
