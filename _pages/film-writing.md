@@ -16,7 +16,7 @@ title: "Film and Writing"
 <!-- THE HOUSE BELOW -->
 <h2>The House Below (2023)</h2>
 <p><strong>Writer & Director</strong> · Short Film · Selected at <a href="https://www.bifff.net" target="_blank">BIFFF 2024</a></p>
-<img src="/assets/images/the-house-below-poster.jpg" alt="The House Below Poster" style="max-width: 100%; height: auto;">
+<img src="/assets/images/artthb.jpg" alt="The House Below Poster" style="max-width: 100%; height: auto;">
 <p>A surreal exploration of grief and disconnection, filmed and edited in five days during the ACAU and Brussels International Fantastic Film Festival Workshop in Uruguay. Parallel section at BIFFF 2025.</p>
 
 <!-- Video embed -->
