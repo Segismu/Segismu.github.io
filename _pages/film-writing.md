@@ -64,7 +64,7 @@ title: "Film and Writing"
 <!-- NEKOMATA ESTUDIO -->
 <h2>Nekomata Estudio</h2>
 <p><strong>Co-founder & Creative Director</strong></p>
-<img src="/assets/images/nekomata-logo.png" alt="Nekomata Estudio Logo" style="max-width: 150px; height: auto;">
+<img src="/assets/images/nekomata.jpg" alt="Nekomata Estudio Logo" style="max-width: 150px; height: auto;">
 <p>Nekomata is an independent film and interactive media studio based in Uruguay. We focus on emotionally driven genre storytelling across formats — from cinema to experimental video games. As a co-founder and coordinator, I lead the narrative direction of our projects, merging cinematic language with interactive structures.</p>
 
 <hr>
