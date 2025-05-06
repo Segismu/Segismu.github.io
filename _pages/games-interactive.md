@@ -22,7 +22,7 @@ title: "Games & Interactive"
 <h2>Somber (in development)</h2>
 <p><strong>Solo</strong> · Puzzle · Unity</p>
 <img src="/assets/images/somber-cover.jpg" alt="Somber Cover" style="max-width: 100%; height: auto;">
-<p><em>Fantasya</em>A pasion project of a cat lost in dreams about her family.</p>
+<p><em>Somber</em> Is a pasion project of a cat lost in dreams about her family.</p>
 
 <hr>
 
