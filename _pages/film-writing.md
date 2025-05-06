@@ -62,6 +62,23 @@ title: "Film and Writing"
 
 <hr>
 
+<hr>
+
+<!-- AERIAL CINEMATOGRAPHY -->
+<h2>Aerial Cinematography</h2>
+<p><strong>Drone Operator & Visual Researcher</strong></p>
+
+<p>In 2024, I began exploring aerial photography and videography with drone technology. This new perspective has allowed me to incorporate spatial elements into my audiovisual language, capturing both natural landscapes and urban transitions from above. I’m currently building a visual archive for future film and interactive projects, while also offering selected footage for licensing.</p>
+
+<!-- Reel Video -->
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/sAuvHavMMtg" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+</div>
+
 <!-- NEKOMATA ESTUDIO -->
 <h2>Nekomata Estudio</h2>
 <p><strong>Co-founder & Creative Director</strong></p>
