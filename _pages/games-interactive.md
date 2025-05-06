@@ -19,7 +19,7 @@ title: "Games & Interactive"
 <img src="/assets/images/fantasya-cover.jpg" alt="Fantasya Cover" style="max-width: 100%; height: auto;">
 <p><em>Fantasya</em> Is a short, simple first-person dungeon crawler inspired by 90s RPGs and psychological narratives. Developed in Unreal Engine 5, it connects directly to the world of our film <em>Deep Creatures</em>, offering a complementary experience through interactive storytelling, obscure mechanics, and a cryptic world driven by memory and obsession.</p>
 
-<h2>Somber - SOLO (in development)</h2>
+<h2>Somber (in development)</h2>
 <p><strong>Solo</strong> · Puzzle · Unity</p>
 <img src="/assets/images/somber-cover.jpg" alt="Somber Cover" style="max-width: 100%; height: auto;">
 <p><em>Fantasya</em>A pasion project of a cat lost in dreams about her family.</p>
