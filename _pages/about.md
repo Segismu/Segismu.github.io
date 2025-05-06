@@ -22,5 +22,6 @@ Deeply interested in game development, I’ve participated in several Global Gam
     <a href="https://www.instagram.com/seroximoron" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
     <a href="https://www.linkedin.com/in/pscesar" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
     <a href="https://segismu.itch.io" target="_blank" aria-label="Itch.io"><i class="fab fa-itch-io"></i></a>
+    <a href="https://github.com/segismu" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
   </div>
 </div>
